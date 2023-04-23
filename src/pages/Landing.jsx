@@ -11,34 +11,33 @@ function Landing() {
   return (
     <section className="hero-container">
       <article className="text-section">
-        <nav>
+        <nav className="navigation">
           <i className="icon bi bi-arrow-left"></i>
           <ul>
-            <i className="icon bi bi-github"></i>
-            <i className="icon bi bi-twitter"></i>
+            <a href="#">
+              <i className="icon bi bi-github"></i>
+            </a>
+            <a href="#">
+              <i className="icon bi bi-twitter"></i>
+            </a>
           </ul>
         </nav>
 
         <div className="heading">
           <h1>Dogs Galleria</h1>
           <p>
-            Looking for some furry inspiration? Our dogs gallery app has got you
-            covered. Get ready to wag your tail and fall in love with our
-            collection of canine cuteness.
+            Get inspired by our gallery of adorable dogs and fall in love with
+            their cuteness. Wag your tail along with us!
           </p>
-          <Link to={'/discover'}>Browse</Link>
+          <Link to={'/discover'} className="btn-browse">
+            Browse
+          </Link>
         </div>
       </article>
       <div className="image-section">
-        <div>
-          <img className="img1" src={img1URl} alt="Card Dog 1 Display" />
-        </div>
-        <div>
-          <img className="img2" src={img2URl} alt="Card Dog 1 Display" />
-        </div>
-        <div>
-          <img className="img3" src={img3URl} alt="Card Dog 1 Display" />
-        </div>
+        <img src={img1URl} alt="Card Dog 1 Display" loading="lazy" />
+        <img src={img2URl} alt="Card Dog 2 Display" loading="lazy" />
+        <img src={img3URl} alt="Card Dog 3 Display" loading="lazy" />
       </div>
     </section>
   )
