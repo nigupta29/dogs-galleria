@@ -2,7 +2,12 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
-  font-family: "Montserrat", sans-serif;
+  font-family: 'Montserrat', sans-serif;
+}
+html,
+body {
+  width: 100%;
+  height: 100%;
 }
 
 :root {
@@ -10,4 +15,30 @@
   --secondary-color-1: #06bee1;
   --primary-color-2: #1768ac;
   --secondary-color-2: #ffffff;
+}
+
+.hero-container {
+  display: grid;
+  grid-template-columns: 40vw 60vw;
+  grid-auto-rows: 100vh;
+  overflow: hidden;
+}
+
+.text-section {
+}
+
+.image-section {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  grid-auto-rows: minmax(auto, 50vh);
+}
+
+.image-section > div > img {
+  height: 100%;
+  width: 100%;
+  object-fit: cover;
+}
+
+.image-section > div:last-child {
+  grid-column: 1 / -1;
 }
