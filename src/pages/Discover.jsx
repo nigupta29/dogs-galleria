@@ -1,5 +1,11 @@
+import DogsList from '../components/dogs/DogsList'
+
 function Discover() {
-  return <div>Discover</div>
+  return (
+    <div>
+      <DogsList />
+    </div>
+  )
 }
 
 export default Discover
