@@ -12,3 +12,32 @@
   --secondary-color-2: #ffffff;
 }
 
+.discover {
+  padding: 1.25rem;
+  margin: 1.25rem auto;
+}
+.headline {
+  margin-bottom: 3rem;
+}
+.headline > h3 {
+  color: var(--primary-color-2);
+  font-size: 2rem;
+  margin-bottom: 1rem;
+}
+.headline > p {
+  margin-bottom: 1rem;
+}
+
+.btn {
+  border-bottom: 2px solid var(--primary-color-1);
+  font-size: 1rem;
+  padding-bottom: 5px;
+  padding-right: 5px;
+  text-decoration: none;
+  transition: padding 0.1s;
+}
+
+.btn:hover {
+  padding-right: 10px;
+  color: var(--secondary-color-1);
+}

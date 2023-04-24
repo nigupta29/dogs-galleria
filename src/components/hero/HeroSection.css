@@ -42,21 +42,8 @@
   margin-bottom: 6rem;
 }
 
-.btn-browse {
-  border-bottom: 2px solid var(--primary-color-1);
-  font-size: 1rem;
-  padding-bottom: 5px;
-  padding-right: 5px;
-  text-decoration: none;
-  transition: padding 0.1s;
-}
 
-.btn-browse:hover {
-  padding-right: 10px;
-}
-
-.icon:hover,
-.btn-browse:hover {
+.icon:hover {
   color: var(--secondary-color-1);
 }
 

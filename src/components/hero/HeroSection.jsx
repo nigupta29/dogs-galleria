@@ -29,7 +29,7 @@ export default function HeroSection() {
             Get inspired by our gallery of adorable dogs and fall in love with
             their cuteness. Wag your tail along with us!
           </p>
-          <Link to={'/discover'} className="btn-browse">
+          <Link to={'/discover'} className="btn">
             Browse
           </Link>
         </div>

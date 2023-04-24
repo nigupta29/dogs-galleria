@@ -344,8 +344,7 @@ export const breedData = [
     id: '21a45037-8468-4792-afa1-c8561560cf8b',
     breed_name: 'labradoodle',
     identifier: 'labradoodle',
-    img_src:
-      'https://images.dog.ceo/breeds/labradoodle/labradoodle-forrest.jpg',
+    img_src: 'https://images.dog.ceo/breeds/labradoodle/Cali.jpg',
   },
   {
     id: 'f80edca7-6346-47a4-8cba-3ff673e88a49',
@@ -879,7 +878,8 @@ export const breedData = [
     id: '46ef123c-1b4d-4154-8372-b0378aec1878',
     breed_name: 'yorkshire terrier',
     identifier: 'terrier-yorkshire',
-    img_src: 'https://images.dog.ceo/breeds/terrier-yorkshire/img_2248.jpg',
+    img_src:
+      'https://images.dog.ceo/breeds/terrier-yorkshire/n02094433_2919.jpg',
   },
   {
     id: 'a9a27bce-e12f-4b3b-9b04-c44292f5c6e0',
